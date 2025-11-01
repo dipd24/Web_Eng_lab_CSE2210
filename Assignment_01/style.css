@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,0..100&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;
+  font-style: normal; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header part start*/
+
+/* .main-header{
+    position: fixed;
+    z-index: 200;
+    
+} */
+
+/* name section start*/
+.uni {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 50px; */
+    width: 50%;
+}
+
+#bu {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+#bu-name {
+    font-size: 20px;
+    color: white;
+    padding-left: 4px;
+    padding-top: 20px;
+}
+
+.dept {
+    display: flex;
+    justify-content: center;
+    /* padding-left: 50px; */
+    width: 50%;
+}
+
+#cse {
+    /* border-radius: 50%; */
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+#cse-name {
+    font-size: 20px;
+    color: white;
+    padding-left: 4px;
+    padding-top: 20px;
+}
+
+.name-section {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(0, 64, 255);
+    
+
+}
+
+/* name section end */
+
+/* navbar section start */
+.nav-section {
+    margin: 10px 200px 10px 200px;
+    /* height: 200px; */
+}
+
+.nav-section a {
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    padding: 5px 8px;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.nav-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-section a:hover,
+.nav-section a.active {
+    background-color: rgb(172, 187, 255);
+    color: black;
+}
+
+/* navbar section end */
+/* header part end */
+
+/* image part start */
+.image-part {
+    background-image: url("bu_campus.png");
+    height: 500px;
+    background-size: cover;
+    /* margin-top: 120px; */
+}
+
+/* image part end */
+
+/* message sec start */
+.message-section {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.headings {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.headings h1 {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+#baani {
+    /* color: rgba(28, 17, 237, 0.114); */
+    /* margin-bottom: 20px; */
+    padding-bottom: 8px;
+    border-bottom: 2px solid blue;
+}
+
+.hod {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hod-msg {
+    height: 320px;
+    width: 320px;
+    border: 1px solid rgb(215, 199, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.hod-msg img {
+    height: 180px;
+    width: 180px;
+    margin: 20px 70px 20px 70px;
+}
+
+.hod-msg h2 {
+    align-self: center;
+    font-size: 20px;
+}
+
+.hod-msg h1 {
+    font-size: 15px;
+    font-weight: 180;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.hod-cmnt {
+    margin: 0px 0px 0px 25px;
+}
+
+.butt {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(78, 7, 125);
+    border: 1px solid yellow;
+    border-radius: 20px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+/* message part end */
+
+/* about dept part start */
+.abt-dept {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* about dept part end*/
+
+/* academic program start */
+
+.academic-programs {
+    background-image: url("bg1.png");
+    height: 650px;
+    background-size: cover;
+}
+
+.academy {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.underline {
+    height: 3px;
+    width: 180px;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.programs {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.deg {
+    height: 390px;
+    width: 330px;
+    border: 1px solid rgb(227, 211, 211);
+    border-radius: 5px;
+    /* margin: auto; */
+    /* align-self: center; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tempimg {
+    height: 250px;
+    width: 330px;
+    border-radius: 5px;
+    display: block;
+    filter: brightness(0.85); 
+    transform: scale(1);
+    transition: 
+        transform 0.4s ease-out, 
+        filter 0.4s ease-out;
+    cursor: pointer;
+}
+
+.tempimg:hover {
+    transform: scale(1.03); 
+    filter: brightness(1); 
+}
+
+.deg h1 {
+    font-size: 17px;
+    font-weight: 140px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+.but2 {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(78, 7, 125);
+    border: 1px solid yellow;
+    border-radius: 20px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+    color: white;
+}
+
+/* academic program end */
+
+/* NOTICE board sec start */
+
+.bc1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 76px;
+    background-color: rgb(178, 200, 255);
+    border-radius: 28px;
+    margin:auto;
+}
+.but3{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(25, 11, 220);
+    border: 1px solid yellow;
+    border-radius: 20px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-top: 25px;
+    margin-left: 100px; */
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.bckgnd{
+    background-image: url(bg1.png);
+    height: 400px;
+    /* width: 800px; */
+    background-position: center;
+    background-repeat: no-repeat;
+   margin-top: 30px;
+   margin-bottom: 30px; 
+}
+
+.bc{
+    text-align: center;
+}
+
+.but4 {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(27, 54, 208);
+    border: 1px solid yellow;
+    border-radius: 5px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    /* margin-left: 100px; */
+    cursor: pointer;
+    color: white;
+}
+/* NOTICE board sec end */
+
+/* latest news sec start */
+.news{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.abet {
+    height: 450px;
+    width: 400px;
+    border: 1px solid rgb(227, 211, 211);
+    border-radius: 5px;
+    /* margin: auto; */
+    /* align-self: center; */
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tempimg2 {
+    height: 250px;
+    width: 400px;
+    border-radius: 5px;
+    display: block;
+    filter: brightness(0.85); 
+    transform: scale(1);
+    transition: 
+        transform 0.4s ease-out, 
+        filter 0.4s ease-out;
+    cursor: pointer;
+
+}
+
+.tempimg2:hover {
+    transform: scale(1.03); 
+    filter: brightness(1); 
+}
+
+.abet h1 {
+    font-size: 17px;
+    font-weight: 140px;
+    margin: 25px 20px 25px 20px;
+}
+.abet p {
+    margin: 25px 20px 25px 20px;
+}
+.but5 {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(78, 7, 125);
+    border: 1px solid yellow;
+    border-radius: 20px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin-top: 25px;
+    margin-left: 100px; */
+    cursor: pointer;
+    color: white;
+}
+.date-info{
+    margin-left: 20px;
+    margin-right: 108px;
+}
+
+/* latest news sec end */
+
+/* footer sec start */
+
+.allfoot{
+    background-color: rgb(40, 6, 72);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.foot{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.foot p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.icons i{
+    color: white;
+    margin-right: 10px;
+}
+
+.styled-list {
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+.styled-list li a{
+    color: white;
+    font-size: 12px;
+    position: relative; /* Essential for positioning the ::before element */
+    margin-bottom: 15px;
+    padding-left: 20px; /* Make room for the custom bullet */
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.styled-list li a::before {
+    content: "►";
+    
+    /* Positioning the custom bullet */
+    position: absolute;
+    left: 0;
+    top: 6;
+    
+    /* Styling the custom bullet */
+    color: white; /* Use your brand color */
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.extra-foot{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/* footer section end */
